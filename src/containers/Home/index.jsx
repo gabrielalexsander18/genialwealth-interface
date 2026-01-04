@@ -1,3 +1,5 @@
+import { Titulo } from "./styles";
+
 export function Home() {
-	return <h1>Ola</h1>
+	return <Titulo>Ola</Titulo>
 }
