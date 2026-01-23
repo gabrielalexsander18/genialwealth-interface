@@ -1,0 +1,63 @@
+<svg
+  width="200"
+  height="80"
+  viewBox="10 0 200 100"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title"
+>
+  <title id="title">Genial Wealth</title>
+
+  <!-- Ícone minimalista -->
+  <g transform="translate(20,28)">
+    <!-- Base -->
+    <line
+      x1="0"
+      y1="36"
+      x2="36"
+      y2="36"
+      stroke="#FFFFFF"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <!-- Crescimento -->
+    <line
+      x1="6"
+      y1="36"
+      x2="30"
+      y2="12"
+      stroke="#399bef"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <!-- Ponto final -->
+    <circle cx="30" cy="12" r="3" fill="#399bef"/>
+  </g>
+
+  <!-- Genial -->
+  <text
+    x="80"
+    y="54"
+    font-family="Inter, Arial, sans-serif"
+    font-size="36"
+    font-weight="600"
+    fill="#FFFFFF"
+  >
+    Genial
+  </text>
+
+  <!-- Wealth ainda mais próximo (~20%) -->
+  <text
+    x="96"
+    y="78"
+    font-family="Inter, Arial, sans-serif"
+    font-size="22"
+    font-weight="500"
+    letter-spacing="3"
+    fill="#399bef"
+  >
+    WEALTH
+  </text>
+</svg>

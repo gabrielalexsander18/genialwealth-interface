@@ -1,0 +1,81 @@
+<svg
+  width="10"
+  height="10"
+  viewBox="15 20 45 66"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="title"
+>
+  <title id="title">Genial Wealth</title>
+
+<style>
+    /* Entrada das linhas */
+    .line-base,
+    .line-growth,
+    .dot {
+      opacity: 0;
+      transform: translateX(-20px);
+      animation: slideIn 0.8s ease-out forwards;
+    }
+
+    .line-growth {
+      animation-delay: 0.20s;
+    }
+
+    .dot {
+      animation-delay: 0.3s;
+    }
+
+    /* Flutuação contínua */
+    .icon {
+      animation: float 3s ease-in-out infinite;
+      animation-delay: .8s; /* começa após o slide */
+    }
+
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translate(0px, 0px);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translate(20px, 20px);
+      }
+      50% {
+        transform: translate(20px, 30px);
+      }
+    }
+  </style>
+
+  <!-- Ícone minimalista -->
+  <g class="icon" transform="translate(20,28)">
+    <!-- Base -->
+    <line
+      class="line-base"
+      x1="0"
+      y1="36"
+      x2="36"
+      y2="36"
+      stroke="#FFFFFF"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <!-- Crescimento -->
+    <line
+      class="line-growth"
+      x1="6"
+      y1="36"
+      x2="30"
+      y2="12"
+      stroke="#399bef"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <!-- Ponto final -->
+    <circle cx="30" cy="12" r="3" fill="#399bef" class="dot" />
+  </g>
+  </svg>
