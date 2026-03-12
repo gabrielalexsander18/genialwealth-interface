@@ -1,21 +1,22 @@
 export const theme = {
-    clearMode: {
-        whiteBlue: '#e1e3ee',
-        blackBlue: '#050922',
-        mediumBlue: '#051252',
-        lightBlue: '#399bef',
-        blue: '#0d1d96',
-        darkBlue: '#0d163b',
-        darkGray: '#212121',
-        Green: '#13771e',
-        red: '#f42b2b',
-        black: '#000000',
-    },
+	gray: '#5d657b',
+	white: '#ffffff',
 
-    darkMode: {
+	clearMode: {
+		whiteBlue: '#e1e3ee',
+		blackBlue: '#050922',
+		mediumBlue: '#051252',
+		lightBlue: '#399bef',
+		blue: '#0d1d96',
+		darkBlue: '#0d163b',
+		darkGray: '#212121',
+		Green: '#13771e',
+		red: '#f42b2b',
+		black: '#000000',
+	},
 
-    }
-}   
+	darkMode: {},
+}
 
 // Cores em RBG
 /*
@@ -28,4 +29,5 @@ export const theme = {
     darkGray: 'rgb(33, 33, 33)',
     Green: 'rgb(19, 119, 30)',
     red: 'rgb(244, 43, 43)',
+    gray: 'rgb(93, 101, 123)',
 */

@@ -2,11 +2,12 @@ import { createGlobalStyle } from 'styled-components'
 import { theme } from './theme'
 
 export default createGlobalStyle`
-    * {
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'League Spartan', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
     outline: none;
  }
 
