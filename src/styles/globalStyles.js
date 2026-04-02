@@ -1,6 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 import { theme } from './theme'
 
+import 'tailwindcss'
+
 export default createGlobalStyle`
   * {
     margin: 0;

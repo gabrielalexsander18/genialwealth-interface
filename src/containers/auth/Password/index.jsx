@@ -4,6 +4,7 @@
 import { ArrowRight } from 'lucide-react'
 import { useState } from 'react'
 import { Button, Input } from '../../../components'
+import { DialogDemo } from '../../../components/ui/dialog'
 import { theme } from '../../../styles/theme'
 import { Container, ContainerOpenAccount, LogoGenialComplet, Main, Titulo } from './styles'
 
@@ -32,7 +33,9 @@ export function Password() {
 					/>
 
 					{/** biome-ignore lint/a11y/useValidAnchor: <explanation> */}
-					<a href="#">Esqueci minha senha</a>
+					<a>
+						<DialogDemo />
+					</a>
 
 					<div id="container_button">
 						<Button
