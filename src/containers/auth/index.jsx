@@ -11,9 +11,9 @@ export function Auth() {
 		<>
 			<Main>
 				<Container>
-					<LogoGenialComplet src={LogoProjetoCompleto} />
+					{/* <LogoGenialComplet src={LogoProjetoCompleto} /> */}
 					<Password />
-					<Login />
+					{/* <Login /> */}
 				</Container>
 			</Main>
 		</>
